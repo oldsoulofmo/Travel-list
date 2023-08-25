@@ -6,8 +6,7 @@
   margin: 0;
 }
 
-html,
-body {
+html {
   height: 100%;
   background-color: #040d12;
 }
@@ -56,7 +55,7 @@ button {
 }
 
 input:focus {
-  border: 2px solid #3e001f;
+  border: 1.5px solid #3e001f;
   outline: none;
 }
 
@@ -85,4 +84,11 @@ li {
 
 .list {
   margin: 6px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  margin: 0 30px;
 }
