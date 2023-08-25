@@ -92,3 +92,13 @@ footer {
   font-family: "Roboto Slab", serif;
   margin: 0 30px;
 }
+
+.actions {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+select {
+  text-transform: uppercase;
+}
