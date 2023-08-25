@@ -1,13 +1,88 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla&family=Lora&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla&family=Lora&family=Roboto+Slab:wght@300&family=Rubik:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  height: 100%;
+  background-color: #040d12;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  margin: 12px;
+  font-family: "Lora", serif;
+  padding: 12px;
+  color: #fff5e0;
+
+  border-radius: 5px;
+}
+
+header {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.wrapper {
+  background-color: #ffc436;
+  margin: 0 12px;
+  border-radius: 5px;
+}
+
+form {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+select,
+input,
+button {
+  margin: 6px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  border: 1px solid #352f44;
+  background-color: #fff5e0;
+  padding: 7px;
+  font-family: "Roboto Slab", serif;
+  cursor: pointer;
+}
+
+input:focus {
+  border: 2px solid #3e001f;
+  outline: none;
+}
+
+ul {
+  color: white;
+  list-style: none;
+  font-family: "Lora", serif;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li > button {
+  color: wheat;
+  background-color: #040d12;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2 rem;
+}
+
+li {
+  margin: 10px;
+}
+
+.list {
+  margin: 6px;
 }
