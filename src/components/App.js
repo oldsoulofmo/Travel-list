@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import Form from "./components/Form";
-import PackingList from "./components/PackingList";
-import Stats from "./components/Stats";
+import Header from "./Header";
+import Form from "./Form";
+import PackingList from "./PackingList";
+import Stats from "./Stats";
 
 export default function App() {
   const [items, setItems] = useState([]);
